@@ -1,0 +1,107 @@
+* {margin: 0; padding: 0;}
+body {
+   
+}
+header {
+    width: 100%;
+    overflow: hidden;
+    background: #00c;
+    margin-bottom: 20px;
+}
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;  
+}
+
+.header nav {
+    float: center;
+    display: flex;
+    line-height: 200px;
+    justify-content: center;
+
+
+}
+.header nav a {
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.header nav a:hover{
+    background:#f56f3a;
+    border-radius: 50px;
+
+}
+.header2 {
+    position: fixed;
+    height: 100px;
+
+}
+
+.header2 div nav{
+    line-height: 100px;
+}
+.contenido{
+    padding-top: 40px;
+}
+.contenido p {
+    margin-bottom: 16px;
+
+}
+section div{
+    height: 150px;
+    right: 150px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    right: 120px;
+    padding: 5px;
+} 
+
+@media screen and (max-width: 950px) {
+    header .logo,
+    header .navegador,
+  
+      {
+        width: 100%;
+        text-align:center;
+        line-height:100px;
+}
+ }
+
+.header2 {
+    height: auto;
+}
+
+section {
+    width: 100%;
+    overflow: hidden;
+    background: #ffff;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    height: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    display: flex;
+    text-align: right;
+   border: solid 1px black;
+
+}
